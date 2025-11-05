@@ -26,7 +26,7 @@ def get_dataloader(dataset, batch_size, shuffle):
         dataset,
         batch_size=batch_size,
         shuffle=shuffle,
-        num_workers=0,  # 必须为0
+        num_workers=0,
         pin_memory=False,
         persistent_workers=False
     )
